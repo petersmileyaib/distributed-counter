@@ -1,0 +1,13 @@
+
+tcp:
+  # Bind tcp service to port
+  port: 9999
+  
+request:
+  # Request timeout for inbound connections
+  timeout: 10000   
+  
+counter:
+  file:
+    # Path to the counter file
+    path: counterFile
